@@ -1,29 +1,33 @@
 const questions = [
-    {
-        question: "How often do you feel overwhelmed?",
-        options: ["Never", "Sometimes", "Often", "Always"]
-    },
-    {
-        question: "How would you rate your sleep quality?",
-        options: ["Excellent", "Good", "Poor", "Very poor"]
-    },
-    {
-        question: "How connected do you feel with friends or family?",
-        options: ["Very connected", "Somewhat", "Barely", "Not at all"]
-    },
-    {
-        question: "How often do you feel hopeless or empty?",
-        options: ["Never", "Sometimes", "Often", "Always"]
-    },
-    {
-        question: "Do you enjoy things you used to love?",
-        options: ["Yes, fully", "Somewhat", "Rarely", "Not anymore"]
-    },
-    {
-        question: "How often do you feel anxious or worried?",
-        options: ["Never", "Sometimes", "Often", "Always"]
-    }
-];
+{
+    "questions": [
+        {
+            "question": "How often do you feel overwhelmed?",
+            "options": ["Never, I'm chill", "Sometimes, it hits", "Often, it's a lot", "Always, help!"]
+        },
+        {
+            "question": "How would you rate your sleep quality?",
+            "options": ["Living the dream", "Pretty good", "Could be better", "Yikes, it's rough"]
+        },
+        {
+            "question": "How connected do you feel with friends or family?",
+            "options": ["Super close", "Kinda connected", "Not really", "Feeling isolated"]
+        },
+        {
+            "question": "How often do you feel hopeless or empty?",
+            "options": ["Never, I'm vibing", "Sometimes, it happens", "Often, it's tough", "Always, it's heavy"]
+        },
+        {
+            "question": "Do you enjoy things you used to love?",
+            "options": ["Absolutely, still a fan", "Kinda, but not as much", "Rarely, lost the spark", "Not anymore, it's over"]
+        },
+        {
+            "question": "How often do you feel anxious or worried?",
+            "options": ["Never, I'm chillin'", "Sometimes, it creeps in", "Often, it's a struggle", "Always, can't escape it"]
+        }
+    ]
+}
+
 
 let currentQuestionIndex = 0;
 let score = 0;
